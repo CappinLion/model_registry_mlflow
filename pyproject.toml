@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "model-registry-mlflow"
+version = "0.1.0"
+description = ""
+authors = ["LionLy <lylion98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "model_registry_mlflow"}]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+numba = "^0.56.4"
+numpy = "^1.23.5"
+mlflow = "1.20.2"
+protobuf = "^3.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
