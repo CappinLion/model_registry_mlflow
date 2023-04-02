@@ -13,3 +13,5 @@ In order ro record MLflow runs, Mlflow allows you to log artifacts and FileStore
 
 With Python Version 3.9.6 within this project, mlflow conflicts with llvmlite because MLflow depends on shap. shap depends on numba. numbda depends on llvmlite.
 Setting `poetry add numba==0.56` fixes the issue. MLFlow doesn't seem to have a fixed numba requirement and llvmlite = ">=0.39.0dev0,<0.40" of numba v0.56
+
+TEST
